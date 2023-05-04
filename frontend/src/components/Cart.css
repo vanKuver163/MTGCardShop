@@ -1,0 +1,49 @@
+.p_cart,
+.h1_cart {
+  font-size: var(--FS-BUTTON-LOGIN);
+  font-family: var(--FF);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.ul_cart {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.li_cart {
+  list-style-type: none;
+  margin-top: 15px;
+  color: whitesmoke;
+  font-family: var(--FF);
+  padding: 0px;
+  font-size: 15px;
+}
+
+.button_plus, .button_del {
+  font-family: var(--FF);
+  font-size: 18px;
+  padding: 2px;
+  border-radius: 2px;  
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+.button_plus:focus,
+.button_plus:hover {
+  color: whitesmoke;
+  background-color: green;
+  outline: none;
+}
+
+
+.button_del:focus,
+.button_del:hover {
+    color: whitesmoke;
+    background-color: red;
+    outline: none;
+  }

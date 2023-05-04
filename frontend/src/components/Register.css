@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 1rem 0.5rem;   
+    text-align: center;
+    
+  }
+
+.register_section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;   
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: whitesmoke;    
+}
+
+.register_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+.register_a, .register_a:visited {
+    color: #fff;
+}
+
+.register_input[type="text"],
+.register_input[type="password"],
+.register_button,
+.register_textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.register_label,
+.register_button {
+  margin-top: 1rem;
+}
+
+.register_button {
+  font-size: var(--FS-BUTTON-LOGIN);
+  font-family: var(--FF);
+  color: #000;
+  background-color: bisque;
+  border: 3px solid black ;
+  border-radius: 20px;
+  box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
+  padding: 0,5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.register_button:hover
+{
+    cursor: pointer;    
+}
+.register_button:active
+{
+    background-color: lightgreen;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
