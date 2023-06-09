@@ -58,14 +58,15 @@
   
   .dataItem p {
     margin-left: 10px;
+   
   }
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
+  .dataItem:hover{
     background-color: lightgrey;
   }
+   a {
+    text-decoration: none;
+  } 
+
   
   #clearBtn {
     cursor: pointer;

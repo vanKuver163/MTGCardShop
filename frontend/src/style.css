@@ -324,13 +324,13 @@ p{
     line-height: 1.5;
 }
 
-.aside__a:hover{
+ .aside__a:hover{
     color: var(--LINK-HOVER);    
 }
 
 .aside__a:active{
     color: var(--LINK-COLOR);
-}
+} 
 
 .container__button{
     font-size: var(--FS-BUTTON-LOGIN);

@@ -10,7 +10,8 @@ const Basket = () => {
         const filteredItems = products.filter(product => product.name === itemName);   
         return filteredItems[0] ? filteredItems[0].image : null;
     }
-    const total = items.reduce((accumulator, item) => accumulator + item.price, 0);   
+    const total = items.reduce((accumulator, item) => (accumulator + item.price)*item.quantity, 0);   
+   
 
     return (
         <div>
@@ -34,7 +35,7 @@ const Basket = () => {
                         </tr>
                     ))}
                 </tbody>
-                 <caption className="table_caption_bottom">Total Price: {total}</caption> 
+                 <caption className="table_caption_bottom">Total Price: {total.toFixed(2)}</caption> 
             </table>
         </div>
     )
